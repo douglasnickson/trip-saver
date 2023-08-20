@@ -1,0 +1,43 @@
+<div class="search-container">
+  <form class="search-form" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+    <div class="search-row">
+      <div class="search-field">
+        <label>Tipo de Viagem:</label>
+        <select formControlName="tripType">
+          <option value="oneWay">Só Ida</option>
+          <option value="roundTrip">Ida e Volta</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label>Tipo de Pagamento:</label>
+        <select formControlName="paymentType">
+          <option value="miles">Milhas</option>
+          <option value="money">Dinheiro</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label>Viajantes:</label>
+        <input type="number" id="travelers" name="travelers" min="1" formControlName="travelers" />
+      </div>
+    </div>
+    <div class="search-row">
+      <div class="search-field">
+        <label for="origin">Origem:</label>
+        <input type="text" id="origin" name="origin" placeholder="Origem" formControlName="origin" />
+      </div>
+      <div class="search-field">
+        <label for="destination">Destino:</label>
+        <input type="text" id="destination" name="destination" placeholder="Destino" formControlName="destination" />
+      </div>
+      <div class="search-field">
+        <label for="departure-date">Data de Partida:</label>
+        <input type="date" id="departure-date" name="departure-date" formControlName="departureDate" />
+      </div>
+      <div class="search-field">
+        <label for="return-date">Data de Retorno:</label>
+        <input type="date" id="return-date" name="return-date" formControlName="returnDate" />
+      </div>
+      <button type="submit">Buscar</button>
+    </div>
+  </form>
+</div>
