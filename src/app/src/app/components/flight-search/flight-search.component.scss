@@ -52,3 +52,27 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+::ng-deep.ng-select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  min-width: 300px;
+  &.has-value .ng-placeholder {
+    display: none;
+  }
+}
+
+::ng-deep.ng-dropdown-panel {
+  background-color: #FFF ;
+  border: 1px solid #ccc ;
+  border-radius: 4px ;
+  margin: 14px 8px 0px -8px ;
+  padding: 4px ;
+}
+
+.ng-select .ng-has-value .ng-placeholder {
+  display: none;
+}

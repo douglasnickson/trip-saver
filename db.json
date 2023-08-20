@@ -46,7 +46,7 @@
       "id": 1,
       "flightNumber": "Voo 123",
       "origin": "GRU",
-      "destination": "GIG",
+      "destination": "JFK",
       "departureTime": "08:00",
       "stops": 1,
       "duration": "4h",
@@ -100,7 +100,7 @@
     {
       "id": 6,
       "flightNumber": "Voo 678",
-      "origin": "GIG",
+      "origin": "JFK",
       "destination": "GRU",
       "departureTime": "08:30",
       "stops": 0,
@@ -264,14 +264,14 @@
     },
 {
       "id": 21,
-      "flightNumber": "Voo 123",
+      "flightNumber": "Voo 345",
       "origin": "GRU",
-      "destination": "GIG",
-      "departureTime": "08:00",
+      "destination": "JFK",
+      "departureTime": "17:00",
       "stops": 1,
       "duration": "4h",
-      "priceMiles": 10000,
-      "priceMoney": 500
+      "priceMiles": 15000,
+      "priceMoney": 1300
     },
     {
       "id": 22,

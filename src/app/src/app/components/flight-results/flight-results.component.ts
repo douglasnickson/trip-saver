@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Flight } from './flight.results.model';
 
 @Component({
   selector: 'app-flight-results',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./flight-results.component.scss']
 })
 export class FlightResultsComponent {
-
+  @Input() flights: Flight[] = [];
 }

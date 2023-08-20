@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NgSelectModule } from '@ng-select/ng-select';
+import { FormsModule } from '@angular/forms'; // Importe o FormsModule
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -9,6 +12,8 @@ import { FlightSearchComponent } from './src/app/components/flight-search/flight
 import { FlightResultsComponent } from './src/app/components/flight-results/flight-results.component';
 import { FlightDetailsComponent } from './src/app/components/flight-details/flight-details.component';
 import { MainComponent } from './src/app/pages/main/main.component';
+
+import { FlightSearchService } from './src/services/flight-search/flight-search.service';
 
 @NgModule({
   declarations: [
@@ -21,9 +26,12 @@ import { MainComponent } from './src/app/pages/main/main.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    NgSelectModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [FlightSearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

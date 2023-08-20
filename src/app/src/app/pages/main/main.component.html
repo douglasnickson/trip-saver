@@ -5,8 +5,8 @@
 
 <main>
   <div class="main-container">
-    <app-flight-search></app-flight-search>
-    <app-flight-results></app-flight-results>
+    <app-flight-search (flights)="handleFlightsResults($event)"></app-flight-search>
+    <app-flight-results [flights]="flights"></app-flight-results>
   </div>
 </main>
 
