@@ -8,4 +8,17 @@ import { Flight } from './flight.results.model';
 })
 export class FlightResultsComponent {
   @Input() flights: Flight[] = [];
+
+  showModal: boolean = false;
+  selectedFlight!: Flight;
+
+  openModal(flight: Flight) {
+    this.selectedFlight = flight;
+    this.showModal = true;
+  }
+
+  closeModal() {
+    this.showModal = false;
+    this.selectedFlight = {} as Flight;
+  }
 }

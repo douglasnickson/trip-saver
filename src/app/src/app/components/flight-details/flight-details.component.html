@@ -1,1 +1,24 @@
-<p>flight-details works!</p>
+<div class="flight-details">
+  <div class="flight-header">
+    <h2>{{ flight.flightNumber }}</h2>
+    <p>{{ flight.origin }} - {{ flight.destination }}</p>
+  </div>
+  <div class="flight-info">
+    <p>Partida: {{ flight.departureTime }}</p>
+    <p>Chegada: {{ flight.arrivalTime }}</p> <!-- Nova informação -->
+    <p>Duração: {{ flight.duration }}</p>
+  </div>
+  <div class="flight-stops" *ngIf="flight.stops.length > 0"> <!-- Verifica se há escalas -->
+    <h3>Escala(s):</h3>
+    <ul>
+      <li *ngFor="let stop of flight.stops">
+        <p>{{ stop.city }}</p>
+        <p>Duração da Escala: {{ stop.duration }}</p>
+      </li>
+    </ul>
+  </div>
+  <div class="flight-prices">
+    <p>Preço em Milhas: {{ flight.priceMiles }}</p>
+    <p>Preço em Dinheiro: {{ flight.priceMoney }}</p>
+  </div>
+</div>

@@ -12,6 +12,7 @@ import { FlightSearchComponent } from './src/app/components/flight-search/flight
 import { FlightResultsComponent } from './src/app/components/flight-results/flight-results.component';
 import { FlightDetailsComponent } from './src/app/components/flight-details/flight-details.component';
 import { MainComponent } from './src/app/pages/main/main.component';
+import { FlightModalComponent } from './src/app/components/flight-modal/flight-modal.component';
 
 import { FlightSearchService } from './src/services/flight-search/flight-search.service';
 
@@ -21,7 +22,8 @@ import { FlightSearchService } from './src/services/flight-search/flight-search.
     FlightSearchComponent,
     FlightResultsComponent,
     FlightDetailsComponent,
-    MainComponent
+    MainComponent,
+    FlightModalComponent
   ],
   imports: [
     BrowserModule,

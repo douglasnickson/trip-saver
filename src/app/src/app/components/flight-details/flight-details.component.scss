@@ -1,0 +1,58 @@
+.flight-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.flight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.flight-info p {
+  margin: 5px 0;
+}
+
+.flight-stops {
+  margin-top: 10px;
+}
+
+.flight-stops h3 {
+  margin-bottom: 5px;
+}
+
+.flight-stops li {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-stops li p {
+  margin: 0;
+}
+
+.flight-stops li .stop-city {
+  font-weight: bold;
+}
+
+.flight-stops li .stop-duration {
+  color: #888;
+}
+
+.flight-prices p {
+  margin: 5px 0;
+}
+
+.view-details {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

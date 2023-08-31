@@ -7,7 +7,9 @@
         <p>Partida: {{ flight.departureTime }} | Escalas: {{ flight.stops }} | Duração: {{ flight.duration }}</p>
         <p>Preço em Milhas: {{ flight.priceMiles }} | Preço em Dinheiro: {{ flight.priceMoney }}</p>
       </div>
-      <button class="view-details">Ver Detalhes</button>
+      <button class="view-details" (click)="openModal(flight)">Ver Detalhes</button>
     </li>
   </ul>
 </div>
+<app-flight-modal [selectedFlight]="selectedFlight" *ngIf="showModal"
+  (closeModalEvent)="closeModal()"></app-flight-modal>
