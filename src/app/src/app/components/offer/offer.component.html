@@ -1,0 +1,7 @@
+<div *ngIf="bestOffer">
+  <h3>Melhor Oferta</h3>
+  <p>Voo: {{ bestOffer.flight.origin }} para {{ bestOffer.flight.destination }}</p>
+  <p>Hotel: {{ bestOffer.hotel.name }} em {{ bestOffer.hotel.city }}</p>
+  <p>Preço Total em Reais: R$ {{ bestOffer.totalPriceInReais }}</p>
+  <p>Preço Total em Milhas: {{ bestOffer.totalPriceInMiles }} milhas</p>
+</div>

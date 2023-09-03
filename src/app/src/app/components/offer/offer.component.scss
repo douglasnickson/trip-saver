@@ -1,0 +1,26 @@
+/* Estilos para o elemento da melhor oferta */
+div {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Estilos específicos para o preço em Reais */
+p:nth-child(3) {
+  font-weight: bold;
+}
+
+/* Estilos específicos para o preço em Milhas */
+p:nth-child(4) {
+  font-style: italic;
+}

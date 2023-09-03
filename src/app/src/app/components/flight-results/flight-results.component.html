@@ -1,4 +1,6 @@
-<div class="results-card">
+<div class="results-card" *ngIf="flights.length > 0">
+  <h2>Melhor Oferta</h2>
+  <app-offer [flights]="flights"></app-offer>
   <h2>Resultados da Busca</h2>
   <ul>
     <li class="flight-item" *ngFor="let flight of flights">
