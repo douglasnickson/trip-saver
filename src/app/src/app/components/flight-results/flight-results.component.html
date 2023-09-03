@@ -5,14 +5,33 @@
   <ul>
     <li class="flight-item" *ngFor="let flight of flights">
       <div class="flight-details">
-        <h3>{{ flight.flightNumber }}</h3>
+        <h3>{{ flight.flightNumber }} ({{ flight.origin }} - {{ flight.destination }})</h3>
         <p><b>Partida:</b> {{ flight.departureTime }} | Escalas: {{ flight.stops.length }} | Duração: {{ flight.duration }}</p>
         <p><b>Preço em Milhas:</b> {{ flight.priceMiles }} | Preço em Dinheiro: {{ flight.priceMoney }}</p>
         <p><b>Opção mais vantajosa:</b> {{ calculateMostAdvantageousOption(flight) }}</p>
       </div>
       <button class="view-details" (click)="openModal(flight)">Ver Detalhes</button>
+      <button class="toggleFavorite" (click)="toggleFavorite(flight)" [class.favorite]="isFavorite(flight)">
+        {{ isFavorite(flight) ? 'Remover dos Favoritos' : 'Adicionar aos Favoritos' }}
+      </button>
     </li>
   </ul>
+  <h2>Favoritos</h2>
+    <ul>
+      <li class="flight-item" *ngFor="let favorite of favoriteService.getFavorites()">
+        <div class="flight-details">
+          <h3>{{ favorite.flightNumber }} ({{ favorite.origin }} - {{ favorite.destination }})</h3>
+          <p><b>Partida:</b> {{ favorite.departureTime }} | Escalas: {{ favorite.stops.length }} | Duração: {{ favorite.duration
+            }}</p>
+          <p><b>Preço em Milhas:</b> {{ favorite.priceMiles }} | Preço em Dinheiro: {{ favorite.priceMoney }}</p>
+          <p><b>Opção mais vantajosa:</b> {{ calculateMostAdvantageousOption(favorite) }}</p>
+        </div>
+        <button class="view-details" (click)="openModal(favorite)">Ver Detalhes</button>
+        <button class="toggleFavorite" (click)="toggleFavorite(favorite)" [class.favorite]="isFavorite(favorite)">
+          {{ isFavorite(favorite) ? 'Remover dos Favoritos' : 'Adicionar aos Favoritos' }}
+        </button>
+      </li>
+    </ul>
 </div>
 <app-flight-modal [selectedFlight]="selectedFlight" *ngIf="showModal"
   (closeModalEvent)="closeModal()"></app-flight-modal>

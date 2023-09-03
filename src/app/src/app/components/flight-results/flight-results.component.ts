@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Flight } from './flight.results.model';
+import { FavoriteService } from 'src/app/src/services/favorite/favorite.service';
 
 @Component({
   selector: 'app-flight-results',
@@ -11,6 +12,8 @@ export class FlightResultsComponent {
 
   showModal: boolean = false;
   selectedFlight!: Flight;
+
+  constructor(public favoriteService: FavoriteService) { }
 
   openModal(flight: Flight) {
     this.selectedFlight = flight;
@@ -34,5 +37,17 @@ export class FlightResultsComponent {
     } else {
       return 'Valores iguais';
     }
+  }
+
+  toggleFavorite(flight: any): void {
+    if (this.isFavorite(flight)) {
+      this.favoriteService.removeFromFavorites(flight);
+    } else {
+      this.favoriteService.addToFavorites(flight);
+    }
+  }
+
+  isFavorite(flight: any): boolean {
+    return this.favoriteService.isFlightInFavorites(flight);
   }
 }

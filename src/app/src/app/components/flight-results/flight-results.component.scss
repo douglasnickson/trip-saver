@@ -50,5 +50,16 @@ ul {
       border-radius: 4px;
       cursor: pointer;
     }
+
+    .toggleFavorite {
+      border: none;
+      cursor: pointer;
+      padding: 0.25rem 0.5rem;
+      margin-left: 4px;
+      border-radius: 4px;
+      background-color: #1976d2;
+      color: #fff;
+      /* Azul */
+    }
   }
 }
