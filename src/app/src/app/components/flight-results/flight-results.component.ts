@@ -21,4 +21,18 @@ export class FlightResultsComponent {
     this.showModal = false;
     this.selectedFlight = {} as Flight;
   }
+
+  calculateMostAdvantageousOption(flight: any): string {
+    const conversionRate = 20;
+
+    const totalInReais = flight.priceMiles * conversionRate;
+
+    if (flight.priceMoney < totalInReais) {
+      return 'Reais é mais vantajoso';
+    } else if (flight.priceMoney > totalInReais) {
+      return 'Milhas é mais vantajoso';
+    } else {
+      return 'Valores iguais';
+    }
+  }
 }

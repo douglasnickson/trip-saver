@@ -4,8 +4,9 @@
     <li class="flight-item" *ngFor="let flight of flights">
       <div class="flight-details">
         <h3>{{ flight.flightNumber }}</h3>
-        <p>Partida: {{ flight.departureTime }} | Escalas: {{ flight.stops }} | Duração: {{ flight.duration }}</p>
-        <p>Preço em Milhas: {{ flight.priceMiles }} | Preço em Dinheiro: {{ flight.priceMoney }}</p>
+        <p><b>Partida:</b> {{ flight.departureTime }} | Escalas: {{ flight.stops.length }} | Duração: {{ flight.duration }}</p>
+        <p><b>Preço em Milhas:</b> {{ flight.priceMiles }} | Preço em Dinheiro: {{ flight.priceMoney }}</p>
+        <p><b>Opção mais vantajosa:</b> {{ calculateMostAdvantageousOption(flight) }}</p>
       </div>
       <button class="view-details" (click)="openModal(flight)">Ver Detalhes</button>
     </li>
