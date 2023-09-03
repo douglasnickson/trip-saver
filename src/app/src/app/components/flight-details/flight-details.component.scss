@@ -1,7 +1,21 @@
+:host {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+}
+
 .flight-details {
   border: 1px solid #ccc;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #fff;
+  /* Adiciona fundo branco */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  /* Adiciona uma sombra */
+  border-radius: 8px;
+  /* Adiciona cantos arredondados */
 }
 
 .flight-header {
@@ -17,6 +31,10 @@
 
 .flight-stops {
   margin-top: 10px;
+  border-top: 1px solid #ccc;
+  /* Adiciona uma linha superior */
+  padding-top: 10px;
+  /* Espaçamento superior */
 }
 
 .flight-stops h3 {

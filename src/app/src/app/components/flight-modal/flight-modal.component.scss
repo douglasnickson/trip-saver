@@ -19,6 +19,8 @@
   max-width: 600px;
   text-align: center;
   position: relative;
+  max-height: 600px;
+  overflow-y: auto;
 
   h2 {
     margin-top: 0;
@@ -26,7 +28,7 @@
 
   .close-modal {
     position: absolute;
-    bottom: -30px;
+    top: 0px;
     right: 0;
     background-color: #1976d2;
     /* Cor azul */

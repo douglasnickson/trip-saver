@@ -1,0 +1,9 @@
+<h2>Detalhes do Hotel</h2>
+<div *ngFor="let hotel of hotels">
+  <h3>{{ hotel.name }}</h3>
+  <p>Cidade: {{ hotel.city }}</p>
+  <p>Preço em Dinheiro: R$ {{ hotel.priceMoney }}</p>
+  <p>Preço em Milhas: {{ hotel.priceMiles }} milhas</p>
+  <p>Classificação: {{ hotel.rating }}/5</p>
+  <!-- Outras informações relevantes do hotel -->
+</div>

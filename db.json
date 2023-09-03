@@ -674,285 +674,325 @@
   }
   ],
   "hotels": [
-    {
-      "id": 1,
-      "name": "Luxury Hotel",
-      "city": "New York",
-      "price": 200,
-      "rating": 4.5
+        {
+        "id": 1,
+        "name": "Luxury Hotel",
+        "city": "New York",
+        "priceMoney": 200,
+        "priceMiles": 10000,
+        "rating": 4.5
     },
     {
-      "id": 2,
-      "name": "Beach Resort",
-      "city": "Los Angeles",
-      "price": 150,
-      "rating": 4.0
+        "id": 2,
+        "name": "Beach Resort",
+        "city": "Los Angeles",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     },
     {
-      "id": 3,
-      "name": "City Center Hotel",
-      "city": "London",
-      "price": 180,
-      "rating": 4.2
+        "id": 3,
+        "name": "City Center Hotel",
+        "city": "London",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.2
     },
     {
-      "id": 4,
-      "name": "Charming Inn",
-      "city": "Paris",
-      "price": 160,
-      "rating": 4.3
+        "id": 4,
+        "name": "Charming Inn",
+        "city": "Paris",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.3
     },
     {
-      "id": 5,
-      "name": "Tokyo Tower Hotel",
-      "city": "Tokyo",
-      "price": 220,
-      "rating": 4.8
+        "id": 5,
+        "name": "Tokyo Tower Hotel",
+        "city": "Tokyo",
+        "priceMoney": 220,
+        "priceMiles": 11000,
+        "rating": 4.8
     },
     {
-      "id": 6,
-      "name": "Skyline Hotel",
-      "city": "Chicago",
-      "price": 170,
-      "rating": 4.1
+        "id": 6,
+        "name": "Skyline Hotel",
+        "city": "Chicago",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.1
     },
     {
-      "id": 7,
-      "name": "Dallas Oasis",
-      "city": "Dallas",
-      "price": 140,
-      "rating": 3.9
+        "id": 7,
+        "name": "Dallas Oasis",
+        "city": "Dallas",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 8,
-      "name": "Rocky Mountain Lodge",
-      "city": "Denver",
-      "price": 160,
-      "rating": 4.0
+        "id": 8,
+        "name": "Rocky Mountain Lodge",
+        "city": "Denver",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 9,
-      "name": "Southern Comfort Inn",
-      "city": "Atlanta",
-      "price": 130,
-      "rating": 4.2
+        "id": 9,
+        "name": "Southern Comfort Inn",
+        "city": "Atlanta",
+        "priceMoney": 130,
+        "priceMiles": 6500,
+        "rating": 4.2
     },
     {
-      "id": 10,
-      "name": "Windmill Hotel",
-      "city": "Amsterdam",
-      "price": 180,
-      "rating": 4.4
+        "id": 10,
+        "name": "Windmill Hotel",
+        "city": "Amsterdam",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.4
     },
     {
-      "id": 11,
-      "name": "Catalonia Suites",
-      "city": "Barcelona",
-      "price": 170,
-      "rating": 4.3
+        "id": 11,
+        "name": "Catalonia Suites",
+        "city": "Barcelona",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.3
     },
     {
-      "id": 12,
-      "name": "Bavarian Chalet",
-      "city": "Munich",
-      "price": 190,
-      "rating": 4.6
+        "id": 12,
+        "name": "Bavarian Chalet",
+        "city": "Munich",
+        "priceMoney": 190,
+        "priceMiles": 9500,
+        "rating": 4.6
     },
     {
-      "id": 13,
-      "name": "Madrid Grand Hotel",
-      "city": "Madrid",
-      "price": 200,
-      "rating": 4.5
+        "id": 13,
+        "name": "Madrid Grand Hotel",
+        "city": "Madrid",
+        "priceMoney": 200,
+        "priceMiles": 10000,
+        "rating": 4.5
     },
     {
-      "id": 14,
-      "name": "Emerald Isle Resort",
-      "city": "Dublin",
-      "price": 150,
-      "rating": 4.0
+        "id": 14,
+        "name": "Emerald Isle Resort",
+        "city": "Dublin",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     },
     {
-      "id": 15,
-      "name": "Bosphorus View Hotel",
-      "city": "Istanbul",
-      "price": 220,
-      "rating": 4.8
+        "id": 15,
+        "name": "Bosphorus View Hotel",
+        "city": "Istanbul",
+        "priceMoney": 220,
+        "priceMiles": 11000,
+        "rating": 4.8
     },
     {
-      "id": 16,
-      "name": "Nordic Retreat",
-      "city": "Stockholm",
-      "price": 160,
-      "rating": 4.2
+        "id": 16,
+        "name": "Nordic Retreat",
+        "city": "Stockholm",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.2
     },
     {
-      "id": 17,
-      "name": "Swiss Alps Lodge",
-      "city": "Zurich",
-      "price": 180,
-      "rating": 4.3
+        "id": 17,
+        "name": "Swiss Alps Lodge",
+        "city": "Zurich",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.3
     },
     {
-      "id": 18,
-      "name": "Mexico City Oasis",
-      "city": "Mexico City",
-      "price": 140,
-      "rating": 3.9
+        "id": 18,
+        "name": "Mexico City Oasis",
+        "city": "Mexico City",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 19,
-      "name": "Harbor View Hotel",
-      "city": "Sydney",
-      "price": 160,
-      "rating": 4.0
+        "id": 19,
+        "name": "Harbor View Hotel",
+        "city": "Sydney",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 20,
-      "name": "São Paulo Suite Hotel",
-      "city": "São Paulo",
-      "price": 190,
-      "rating": 4.2
+        "id": 20,
+        "name": "São Paulo Suite Hotel",
+        "city": "São Paulo",
+        "priceMoney": 190,
+        "priceMiles": 9500,
+        "rating": 4.2
+    },
+        {
+        "id": 21,
+        "name": "Belo Horizonte Plaza",
+        "city": "Belo Horizonte",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.1
     },
     {
-      "id": 21,
-      "name": "Belo Horizonte Plaza",
-      "city": "Belo Horizonte",
-      "price": 170,
-      "rating": 4.1
+        "id": 22,
+        "name": "Curitiba Comfort Inn",
+        "city": "Curitiba",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 22,
-      "name": "Curitiba Comfort Inn",
-      "city": "Curitiba",
-      "price": 140,
-      "rating": 3.9
+        "id": 23,
+        "name": "Porto Alegre Waterfront",
+        "city": "Porto Alegre",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 23,
-      "name": "Porto Alegre Waterfront",
-      "city": "Porto Alegre",
-      "price": 160,
-      "rating": 4.0
+        "id": 24,
+        "name": "Recife Beach Resort",
+        "city": "Recife",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.2
     },
     {
-      "id": 24,
-      "name": "Recife Beach Resort",
-      "city": "Recife",
-      "price": 180,
-      "rating": 4.2
+        "id": 25,
+        "name": "Salvador Paradise",
+        "city": "Salvador",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     },
     {
-      "id": 25,
-      "name": "Salvador Paradise",
-      "city": "Salvador",
-      "price": 150,
-      "rating": 4.0
+        "id": 26,
+        "name": "Fortaleza Oceanfront Inn",
+        "city": "Fortaleza",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.1
     },
     {
-      "id": 26,
-      "name": "Fortaleza Oceanfront Inn",
-      "city": "Fortaleza",
-      "price": 170,
-      "rating": 4.1
+        "id": 27,
+        "name": "Vitória Harbor Hotel",
+        "city": "Vitória",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 27,
-      "name": "Vitória Harbor Hotel",
-      "city": "Vitória",
-      "price": 140,
-      "rating": 3.9
+        "id": 28,
+        "name": "Maceió Beachfront Resort",
+        "city": "Maceió",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 28,
-      "name": "Maceió Beachfront Resort",
-      "city": "Maceió",
-      "price": 160,
-      "rating": 4.0
+        "id": 29,
+        "name": "Natal Palm Oasis",
+        "city": "Natal",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.2
     },
     {
-      "id": 29,
-      "name": "Natal Palm Oasis",
-      "city": "Natal",
-      "price": 180,
-      "rating": 4.2
+        "id": 30,
+        "name": "Belém Cultural Hotel",
+        "city": "Belém",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     },
     {
-      "id": 30,
-      "name": "Belém Cultural Hotel",
-      "city": "Belém",
-      "price": 150,
-      "rating": 4.0
+        "id": 31,
+        "name": "Porto Seguro Paradise",
+        "city": "Porto Seguro",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.1
     },
     {
-      "id": 31,
-      "name": "Porto Seguro Paradise",
-      "city": "Porto Seguro",
-      "price": 170,
-      "rating": 4.1
+        "id": 32,
+        "name": "São Paulo Executive Hotel",
+        "city": "São Paulo",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 32,
-      "name": "São Paulo Executive Hotel",
-      "city": "São Paulo",
-      "price": 140,
-      "rating": 3.9
+        "id": 33,
+        "name": "São Luís Waterfront Inn",
+        "city": "São Luís",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 33,
-      "name": "São Luís Waterfront Inn",
-      "city": "São Luís",
-      "price": 160,
-      "rating": 4.0
+        "id": 34,
+        "name": "Santos Oceanfront Resort",
+        "city": "Santos",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.2
     },
     {
-      "id": 34,
-      "name": "Santos Oceanfront Resort",
-      "city": "Santos",
-      "price": 180,
-      "rating": 4.2
+        "id": 35,
+        "name": "João Pessoa Palm Oasis",
+        "city": "João Pessoa",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     },
     {
-      "id": 35,
-      "name": "João Pessoa Palm Oasis",
-      "city": "João Pessoa",
-      "price": 150,
-      "rating": 4.0
+        "id": 36,
+        "name": "Florianópolis Paradise",
+        "city": "Florianópolis",
+        "priceMoney": 170,
+        "priceMiles": 8500,
+        "rating": 4.1
     },
     {
-      "id": 36,
-      "name": "Florianópolis Paradise",
-      "city": "Florianópolis",
-      "price": 170,
-      "rating": 4.1
+        "id": 37,
+        "name": "Goiânia Executive Hotel",
+        "city": "Goiânia",
+        "priceMoney": 140,
+        "priceMiles": 7000,
+        "rating": 3.9
     },
     {
-      "id": 37,
-      "name": "Goiânia Executive Hotel",
-      "city": "Goiânia",
-      "price": 140,
-      "rating": 3.9
+        "id": 38,
+        "name": "São Paulo Downtown Inn",
+        "city": "São Paulo",
+        "priceMoney": 160,
+        "priceMiles": 8000,
+        "rating": 4.0
     },
     {
-      "id": 38,
-      "name": "São Paulo Downtown Inn",
-      "city": "São Paulo",
-      "price": 160,
-      "rating": 4.0
+        "id": 39,
+        "name": "São Paulo City Center Hotel",
+        "city": "São Paulo",
+        "priceMoney": 180,
+        "priceMiles": 9000,
+        "rating": 4.2
     },
     {
-      "id": 39,
-      "name": "São Paulo City Center Hotel",
-      "city": "São Paulo",
-      "price": 180,
-      "rating": 4.2
-    },
-    {
-      "id": 40,
-      "name": "Brasília Cultural Hotel",
-      "city": "Brasília",
-      "price": 150,
-      "rating": 4.0
+        "id": 40,
+        "name": "Brasília Cultural Hotel",
+        "city": "Brasília",
+        "priceMoney": 150,
+        "priceMiles": 7500,
+        "rating": 4.0
     }
   ]
 }

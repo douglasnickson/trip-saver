@@ -1,0 +1,51 @@
+/* hotel-list.component.css */
+
+/* Estilo para o contêiner da lista de hotéis */
+:host {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para cada hotel na lista */
+div {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Estilo para destacar o nome do hotel */
+h3 {
+  color: #007bff; /* Cor azul, você pode escolher outra cor */
+}
+
+/* Estilo para destacar o preço em dinheiro */
+p:nth-child(3) {
+  color: #28a745; /* Cor verde, você pode escolher outra cor */
+}
+
+/* Estilo para destacar o preço em milhas */
+p:nth-child(4) {
+  color: #ff6b6b; /* Cor vermelha, você pode escolher outra cor */
+}
+
+/* Estilo para a classificação */
+p:nth-child(5) {
+  font-weight: bold;
+}
+
+/* Outros estilos personalizados conforme necessário */

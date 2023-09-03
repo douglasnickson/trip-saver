@@ -1,6 +1,7 @@
 <div class="flight-modal-overlay">
   <div class="flight-modal">
     <app-flight-details [flight]="selectedFlight"></app-flight-details>
+    <app-hotel-details [flight]="selectedFlight"></app-hotel-details>
     <button class="close-modal" (click)="closeModal()">Fechar</button>
   </div>
 </div>

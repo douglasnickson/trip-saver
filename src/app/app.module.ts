@@ -15,6 +15,7 @@ import { MainComponent } from './src/app/pages/main/main.component';
 import { FlightModalComponent } from './src/app/components/flight-modal/flight-modal.component';
 
 import { FlightSearchService } from './src/services/flight-search/flight-search.service';
+import { HotelDetailsComponent } from './src/app/components/hotel-details/hotel-details.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FlightSearchService } from './src/services/flight-search/flight-search.
     FlightResultsComponent,
     FlightDetailsComponent,
     MainComponent,
-    FlightModalComponent
+    FlightModalComponent,
+    HotelDetailsComponent
   ],
   imports: [
     BrowserModule,
