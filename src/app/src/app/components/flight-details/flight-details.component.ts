@@ -22,7 +22,6 @@ export class FlightDetailsComponent implements OnInit {
 
   loadHotels(): void {
     if (this.flight) {
-      // Use o destino do voo selecionado para buscar hotéis
       this.hotelService.getHotelsByCity(this.flight.destination)
         .subscribe((hotels) => {
           this.hotels = hotels;
